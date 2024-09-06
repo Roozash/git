@@ -7,7 +7,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 // Define a basic route
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname , 'index.html'));
+  res.sendFile(path.join(__dirname, 'file' , 'index.html'));
 });
 
 // Start the server
